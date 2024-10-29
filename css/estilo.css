@@ -1,6 +1,163 @@
+:root {
+    --cor_btn_get_started: rgba(255, 68, 0, 0.884);
+    --cor_hover_btn_get_started: rgba(250, 104, 51, 0.884);
+
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+
+}
+
+body {
+    /*justify-content: center;*/
+
+}
+
+/*HEADER com logo, menu e botão*/
+header {
+    display: flex;
+    flex-direction: row;
+
+    height: 2rem;
+    width: 100%;
+    margin: 3rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    justify-content: center;
+
+}
+
+/*Logo*/
+.imagem_logo {
+    width: 8em;
+    height: 2em;
+    float: left;
+    font-size: 1rem;
+
+
+}
+
+/*Div menu com a nav, ul, li, a */
+.div_menu {
+
+
+}
+
+/*nav*/
+.itens_menu {
+    display: flex;
+    justify-content: center;
+
+}
+
+ul, li, a {
+    cursor: pointer;
+    text-decoration: none; /*tirar sublinhado*/
+    list-style-type: none; /*tirar o budgets*/
+    gap: .6rem; /*espaço entre linhas*/
+    /*letter-spacing: 1rem;*/
+    padding-bottom: 1rem;
+    font-size: 1.2rem;
+    color: black;
+    font-weight: bolder;
+
+
+}
+
+ul {
+    margin-left: 5rem;
+
+}
+
+
+li {
+    padding-left: 2rem;
+
+}
+
+
+a:hover {
+    color: rgba(36, 33, 33, 0.589);
+
+}
+
+/*elemento pai*/
+.ul_menu {
+    justify-content: center;
+    display: flex;
+
+}
+
+/*Div botão header*/
+.div_btn_header {
+    margin-left: 5rem;
+
+
+}
+
+.btn_header{
+    color: white;
+    background-color: var(--cor_btn_get_started);
+    float: right;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    padding: 1rem;
+    cursor: pointer;
+    letter-spacing: .1rem;
+    font-weight: bolder; 
+    
+
+}
+
+.btn_header:hover {
+    background-color: var(--cor_hover_btn_get_started);
+
+}
+
+/*CORPO DO SITE*/
+
+/*Div corpo do site*/
+.div_corpo_site {
+    display: flex;
+
+
+}
+
+/*Article com o h1, p e botão*/
+.article_corpo_site {
+
+}
+
+h1 {
+
+
+}
+
+.p_do_h1 {
+
+
+}
+
+.btn_h1 {
+    color: white;
+    background-color: var(--cor_btn_get_started);
+    float: left;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    padding: 1rem;
+    cursor: pointer;
+    letter-spacing: .1rem;
+    font-weight: bolder;
+
+}
+
+.btn_h1:hover {
+    background-color: var(--cor_hover_btn_get_started);
+
 
 }
