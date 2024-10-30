@@ -13,6 +13,13 @@
 
 body {
     /*justify-content: center;*/
+    background-image: url(../images/bg-tablet-pattern.svg);
+    background-size: cover;
+    background-position: right center;
+    background-repeat: inherit;
+    /*height: 400px;8/
+    /*width: 100%;*/
+    margin: 0;
 
 }
 
@@ -160,4 +167,87 @@ h1 {
     background-color: var(--cor_hover_btn_get_started);
 
 
+}
+
+
+/*FOOTER*/
+footer {
+    justify-content: center;
+    padding-left: 0;
+    padding-right: 0;
+    box-sizing: border-box;
+
+    
+}
+
+/*div laranja com um botão*/
+.rodape_laranja {
+    background-color: var(--cor_btn_get_started);
+    /*padding-left: 2rem;*/
+    /*padding-right: 2rem;*/
+    padding: 2.5rem;
+
+}
+
+/*Simplify how your team works today*/
+.p_rodape_laranja {
+    color: white;
+    font-size: 4rem;
+
+}
+
+.btn_rodape_laranja {
+    float: right;
+    color: var(--cor_btn_get_started);
+    background-color: white;
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    padding: 1rem;
+    cursor: pointer;
+    letter-spacing: .1rem;
+    font-weight: bolder;
+    margin-top: -6rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    
+
+}
+
+.btn_rodape_laranja {
+    /*background-color: wheat;*/
+
+
+}
+
+/*Div rodapé preto*/
+.rodape_preto {
+    /*background-color: rgba(0, 0, 0, 0.863);*/
+    background-color: rgba(17, 24, 39, 0.993);
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.section_rodape_preto{
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+
+}
+
+
+.article_rodape_preto {
+    
+    
+
+}
+
+.article_rodape_preto {
+   
+
+}
+
+.p_rodape_preto {
+    color: white;
 }
