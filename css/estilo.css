@@ -192,7 +192,9 @@ footer {
 /*Simplify how your team works today*/
 .p_rodape_laranja {
     color: white;
-    font-size: 4rem;
+    font-size: 3rem;
+    font-weight: bolder;
+    margin-left: 6rem;
 
 }
 
@@ -210,6 +212,7 @@ footer {
     margin-top: -6rem;
     padding-left: 2rem;
     padding-right: 2rem;
+    margin-right: 6rem;
     
 
 }
@@ -228,26 +231,126 @@ footer {
     display: flex;
     flex-direction: column;
 
+    font-size: 1rem;
+    line-height: 2rem;
+
+    
+
 }
 
 .section_rodape_preto{
     display: grid;
     grid-template-columns: repeat(4, minmax(0, 1fr));
+    margin: 3rem;
+    margin-top: 3rem;
+
 
 }
 
+.imagem_logo_rodape {
+    margin-left: 5rem;
+    margin-right: 5rem;
+    gap: 2rem;
+    /*color: white;*/
 
+    width: 8em;
+    height: 2em;
+
+}
+
+/*Article com o 1º bloco de links*/
 .article_rodape_preto {
+    margin-left: 8rem;
     
     
 
 }
 
-.article_rodape_preto {
+/*Links do rodapé preto*/
+.link_rodape_preto {
+    color: white;
+    font-size: 1.1rem;
+    cursor: pointer;
+    font-weight: 200;
+    letter-spacing: .1rem;
+    
+}
+
+.link_rodape_preto:hover {
+    color: var(--cor_btn_get_started);
+
+}
+
+/*Article com o 2º bloco de links */
+.article_rodape_preto2 {
    
 
 }
 
-.p_rodape_preto {
+/*Article com o bloco do input e btn */
+.article_rodape_preto3 {
+
+}
+
+
+/*Input do rodape preto*/
+.input_rodape_preto {
+    border-radius: 30px;
+    border: none;
+    font-weight: 200;
+    letter-spacing: .1rem;
+
+    padding: .8rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+
+    margin-left: -4rem;
+     
+
+}
+
+.placeholder_input {
+    font-size: .8rem;
+    opacity: 1;
+    color: #ccc;
+
+}
+
+.placeholder_input:hover {
+    outline: 0cap;
+}
+
+
+.btn_rodape_preto {
     color: white;
+    background-color: var(--cor_btn_get_started);
+    border: none;
+    border-radius: 30px;
+    font-size: 1rem;
+    cursor: pointer;
+
+    padding: .8rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+
+    font-weight: 200;
+    letter-spacing: .1rem;
+
+}
+
+.btn_rodape_preto:hover {
+    background-color: var(--cor_hover_btn_get_started);
+
+
+}
+
+.p_copyright {
+    color: #ffffff5d;
+    margin-top: 2rem;
+    font-size: .9rem;
+}
+
+.icon_rodape {
+    font-size: 1rem;
+    
 }
