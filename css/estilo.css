@@ -260,7 +260,8 @@ footer {
 
 /*Article com o 1º bloco de links*/
 .article_rodape_preto {
-    margin-left: 8rem;
+    /*margin-left: 8rem;*/
+
     
     
 
@@ -350,7 +351,29 @@ footer {
     font-size: .9rem;
 }
 
+/*Div com os ícones das redes sociais*/
+.div_redes_sociais {
+    margin-left: 5rem;
+    margin-right: 5rem;
+    gap: 3rem;
+    font-size: 1rem;
+    letter-spacing: .2rem;
+    
+
+}
+
+/*Ícones de redes sociais*/
 .icon_rodape {
     font-size: 1rem;
+    cursor: pointer;
     
 }
+
+.icon_rodape:hover {
+    background-color: var(--cor_btn_get_started);
+    border-radius: 50%;
+    border: 1px solid var(--cor_btn_get_started);
+
+
+}
+
