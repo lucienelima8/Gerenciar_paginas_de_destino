@@ -13,26 +13,33 @@
 
 body {
     /*justify-content: center;*/
-    background-image: url(../images/bg-tablet-pattern.svg);
+    /*background-image: url(../images/bg-tablet-pattern.svg);*/
+    /*background-image: url(../images/bg-simplify-section-desktop.svg);*/
     background-size: cover;
     background-position: right center;
     background-repeat: inherit;
     /*height: 400px;8/
     /*width: 100%;*/
-    margin: 0;
+    margin-top: 3rem;
+
+    width: 100%; /*largura de 100% da página*/
+    height: 100vh; /*altura total da página*/
+    /*padding: 2rem;*/
+    /*text-align: center;*/
 
 }
+
 
 /*HEADER com logo, menu e botão*/
 header {
     display: flex;
     flex-direction: row;
 
-    height: 2rem;
+    /*height: 2rem;*/
     width: 100%;
-    margin: 3rem;
-    padding-left: 3rem;
-    padding-right: 3rem;
+    /*margin: 2rem;*/
+    /*padding-left: 3rem;*/
+    /*padding-right: 3rem;*/
     justify-content: center;
 
 }
@@ -116,6 +123,7 @@ a:hover {
     cursor: pointer;
     letter-spacing: .1rem;
     font-weight: bolder; 
+    margin-bottom: 3rem;
     
 
 }
@@ -130,6 +138,9 @@ a:hover {
 /*Div corpo do site*/
 .div_corpo_site {
     display: flex;
+    justify-content: center;
+    margin-left: 10rem;
+    margin-right: 10rem;
 
 
 }
@@ -189,6 +200,18 @@ footer {
 
 }
 
+/*Imagem de fundo rodapé laranja*/
+.img_fundo {
+    background-image: url('../images/bg-simplify-section-desktop.svg');
+    background-color: var(--cor_hover_btn_get_started);
+    background-position: right -200px top -150px; /* Ajuste conforme necessário */
+    background-repeat: no-repeat;
+    background-size: contain; 
+    width: 100%; /* Adicione uma largura */
+    height: 400px; /* Defina uma altura adequada */
+
+}
+
 /*Simplify how your team works today*/
 .p_rodape_laranja {
     color: white;
@@ -240,6 +263,7 @@ footer {
 
 .section_rodape_preto{
     display: grid;
+    
     grid-template-columns: repeat(4, minmax(0, 1fr));
     margin: 3rem;
     margin-top: 3rem;
@@ -262,7 +286,6 @@ footer {
 .article_rodape_preto {
     /*margin-left: 8rem;*/
 
-    
     
 
 }
