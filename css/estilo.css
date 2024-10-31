@@ -196,12 +196,12 @@ footer {
     background-color: var(--cor_btn_get_started);
     /*padding-left: 2rem;*/
     /*padding-right: 2rem;*/
-    padding: 2.5rem;
+    padding: 2rem;
 
 }
 
 /*Imagem de fundo rodapé laranja*/
-.img_fundo {
+.img_fundo_laranja {
     background-image: url('../images/bg-simplify-section-desktop.svg');
     background-color: var(--cor_hover_btn_get_started);
     background-position: right -200px top -150px; /* Ajuste conforme necessário */
