@@ -255,7 +255,7 @@ footer {
     flex-direction: column;
 
     font-size: 1rem;
-    line-height: 2rem;
+    line-height: 1rem;
 
     
 
@@ -271,20 +271,39 @@ footer {
 
 }
 
-.imagem_logo_rodape {
+/*Nome da logo no rodapé laranja*/
+.nome_logo_rodape {
     margin-left: 5rem;
     margin-right: 5rem;
     gap: 2rem;
     /*color: white;*/
+    color: white;
+    font-size: 2rem;
+    font-weight: 200;
+    letter-spacing: .1rem;
+    font-weight: bolder;
 
-    width: 8em;
-    height: 2em;
+
+    /*width: 8em;
+    height: 2em;*/
+
+}
+
+/*4 pontos no nome da logo*/
+.quatro_pontos{
+    color: var(--cor_btn_get_started);
+    font-size: 2rem;
+    letter-spacing: .1rem;
+    font-weight: bolder;
+
+
 
 }
 
 /*Article com o 1º bloco de links*/
 .article_rodape_preto {
     /*margin-left: 8rem;*/
+    margin-top: 1rem;
 
     
 
@@ -307,6 +326,8 @@ footer {
 
 /*Article com o 2º bloco de links */
 .article_rodape_preto2 {
+    margin-top: 1rem;
+
    
 
 }
@@ -380,7 +401,7 @@ footer {
     margin-right: 5rem;
     gap: 3rem;
     font-size: 1rem;
-    letter-spacing: .2rem;
+    letter-spacing: .4rem;
     
 
 }
@@ -389,6 +410,7 @@ footer {
 .icon_rodape {
     font-size: 1rem;
     cursor: pointer;
+    
     
 }
 
