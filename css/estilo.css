@@ -134,7 +134,7 @@ a:hover {
 
 }
 
-      /*CORPO DO SITE*/
+      /*1ª parte CORPO DO SITE*/
 
 /*Div corpo do site*/
 .div_corpo_site {
@@ -224,6 +224,62 @@ footer {
 
     
 }
+
+
+      /*2ª parte CORPO DO SITE*/
+
+/*2ª corpo do site*/
+.div_corpo2_site {
+
+}
+
+/*Article com o h2 e texto*/
+.article_corpo2 {
+
+}
+
+/*What’s different about Manage?*/
+h2 {
+
+
+}
+
+/*Parágrafo do Article corpo 2*/
+.p_article_corpo2 {
+
+}
+
+/*Article com 3 ítens de textos*/
+.article_3itens_corpo2 {
+
+}
+
+/*Span com os números de cada item*/
+.item_article_corpo2 {
+
+}
+
+
+/*Track companhy...*/
+h3 {
+
+
+}
+
+
+/*Parágrafo de cada item*/
+.p_article_corpo2 {
+
+}
+
+
+
+
+
+
+
+
+
 
 /*Footer laranja*/
 
