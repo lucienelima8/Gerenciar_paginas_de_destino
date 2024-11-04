@@ -29,6 +29,7 @@ body {
 
 }
 
+      /*HEADER*/
 
 /*HEADER com logo, menu e botão*/
 header {
@@ -133,29 +134,49 @@ a:hover {
 
 }
 
-/*CORPO DO SITE*/
+      /*CORPO DO SITE*/
 
 /*Div corpo do site*/
 .div_corpo_site {
-    display: flex;
-    justify-content: center;
+    /*display: flex;*/
+    /*justify-content: center;*/
     margin-left: 10rem;
     margin-right: 10rem;
+    gap: 2rem;
+    margin-top: 3rem;
+
+    display: grid;    
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+
+    /*grid-template-rows: repeat(3, auto); /* Limita a 3 linhas */
+    /*overflow: hidden; /* Oculta o conteúdo que excede a altura */
 
 
 }
+
+
 
 /*Article com o h1, p e botão*/
 .article_corpo_site {
+    margin-right: 1.5rem;
+    
+
 
 }
 
+/*Bring everyone together to build...*/
 h1 {
+    font-size: 3rem;
 
 
 }
 
+/*Manage makes it simple for...*/
 .p_do_h1 {
+    font-size: 1.2rem;
+    color: #a8a4a4;
+    margin-bottom: 1.5rem;
+
 
 
 }
@@ -180,8 +201,21 @@ h1 {
 
 }
 
+/*Article com 3 imagens com %, gráfico e disco*/
+.article_imagem_corpo {
+    margin-left: 1.5rem;
 
-/*FOOTER*/
+
+}
+
+.img_3img_corpo {
+    max-width: 110%;
+    
+}
+
+
+      /*FOOTER*/
+
 footer {
     justify-content: center;
     padding-left: 0;
@@ -190,6 +224,8 @@ footer {
 
     
 }
+
+/*Footer laranja*/
 
 /*div laranja com um botão*/
 .rodape_laranja {
@@ -206,7 +242,7 @@ footer {
     background-color: var(--cor_hover_btn_get_started);
     /*background-position: right -200px top -150px; /* Ajuste conforme necessário */
     background-repeat: no-repeat;
-    background-position: 200px calc(90%); /*300px*/
+    background-position: 12.5rem calc(90%); /*200px*/
     background-size: contain;
     background-size: auto, 100%;
     width: 100%; /* Adicione uma largura */
@@ -219,7 +255,7 @@ footer {
     color: white;
     font-size: 3rem;
     font-weight: bolder;
-    margin-left: 6rem;
+    margin-left: 3rem;
 
 }
 
@@ -252,7 +288,7 @@ footer {
     background-color: rgb(248, 243, 234);
 }
 
-
+/*Footer preto*/
 
 /*Div rodapé preto*/
 .rodape_preto {
@@ -271,8 +307,8 @@ footer {
 
 .section_rodape_preto{
     display: grid;
-    
     grid-template-columns: repeat(4, minmax(0, 1fr));
+    
     margin: 3rem;
     margin-top: 3rem;
 
