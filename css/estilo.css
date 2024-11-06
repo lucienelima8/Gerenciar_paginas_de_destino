@@ -164,6 +164,7 @@ a:hover {
 
 }
 
+/*Título do article 1ª parte do corpo do site*/
 /*Bring everyone together to build...*/
 h1 {
     font-size: 3.5rem;
@@ -176,14 +177,11 @@ h1 {
 .p_do_h1 {
     font-size: 1.20rem;
     line-height: 1.80rem;
-    color: #a8a4a4;
+    /*color: #a8a4a4;*/
+    color: gray;
     margin-bottom: 1.5rem;
     max-width: 21rem;
-
-    
-
-
-
+ 
 
 }
 
@@ -214,6 +212,7 @@ h1 {
 
 }
 
+/*Imagem com 3*/
 .img_3img_corpo {
     max-width: 110%;
     
@@ -236,47 +235,94 @@ footer {
 
 /*2ª corpo do site*/
 .div_corpo2_site {
+    margin-left: 10rem;
+    margin-right: 10rem;
+    gap: 3rem;
+    margin-top: 6rem;
+
+    display: grid;    
+    grid-template-columns: repeat(2, minmax(0, 1fr));
 
 }
 
 /*Article com o h2 e texto*/
 .article_corpo2 {
+    margin-right: 1.5rem;
+
 
 }
 
 /*What’s different about Manage?*/
 h2 {
+    font-size: 2.5rem;
+    line-height: 1; /*altura da caixa*/
+    margin-bottom: 1.5rem;
 
 
 }
 
 /*Parágrafo do Article corpo 2*/
 .p_article_corpo2 {
+    font-size: 1.20rem;
+    line-height: 1.80rem;
+    /*color: #a8a4a4;*/
+    color: gray;
+    margin-bottom: 1.5rem;
+    max-width: 21rem;
 
 }
 
 /*Article com 3 ítens de textos*/
 .article_3itens_corpo2 {
+    margin-left: 3rem;
+
+
 
 }
 
 /*Span com os números de cada item*/
-.item_article_corpo2 {
+.numero_item_article_corpo2 {
+    border-radius: 30px;
+    background-color: var(--cor_hover_btn_get_started);
 
+    font-size: 1rem;
+    color: white;
+    font-weight: bold;
+
+    /*padding: 1rem;*/
+
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+   
+   
 }
 
-
-/*Track companhy...*/
+/*Título de cada número*/
 h3 {
+    margin-left: 5rem;
+    margin-top: -1.2rem;
+
 
 
 }
-
 
 /*Parágrafo de cada item*/
-.p_article_corpo2 {
+.p_item_article_corpo2 {
+    font-size: 1.20rem;
+    line-height: 1.80rem;
+    /*color: #a8a4a4;*/
+    color: gray;
+    margin-left: 5rem;
+    margin-bottom: 1.5rem;
+    max-width: 25rem;
+    text-align: justify;
+
 
 }
+
+
 
 
 
@@ -342,7 +388,7 @@ h3 {
     margin-top: -5rem;
     /*margin-right: 6rem;*/
     margin-right: 4rem;
-
+    
 
 }
 
@@ -486,6 +532,8 @@ h3 {
 
     font-weight: 200;
     letter-spacing: .1rem;
+
+    margin-left: .4rem;
 
 }
 
