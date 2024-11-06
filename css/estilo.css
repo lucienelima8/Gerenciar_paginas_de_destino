@@ -142,7 +142,7 @@ a:hover {
     /*justify-content: center;*/
     margin-left: 10rem;
     margin-right: 10rem;
-    gap: 2rem;
+    gap: 3rem;
     margin-top: 3rem;
 
     display: grid;    
@@ -166,16 +166,22 @@ a:hover {
 
 /*Bring everyone together to build...*/
 h1 {
-    font-size: 3rem;
+    font-size: 3.5rem;
+    line-height: 1; /*altura da caixa*/
 
 
 }
 
 /*Manage makes it simple for...*/
 .p_do_h1 {
-    font-size: 1.2rem;
+    font-size: 1.20rem;
+    line-height: 1.80rem;
     color: #a8a4a4;
     margin-bottom: 1.5rem;
+    max-width: 21rem;
+
+    
+
 
 
 
