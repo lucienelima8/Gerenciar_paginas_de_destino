@@ -219,17 +219,6 @@ h1 {
 }
 
 
-      /*FOOTER*/
-
-footer {
-    justify-content: center;
-    padding-left: 0;
-    padding-right: 0;
-    box-sizing: border-box;
-
-    
-}
-
 
       /*2ª parte CORPO DO SITE*/
 
@@ -332,8 +321,52 @@ h3 {
     font-size: 2.5rem;
     margin-top: 6rem
 
+}
+
+
+/*Cards*/
+/*Section com todos os cards*/
+.section_cards {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr)); /*pra dividir em 4 seções*/
+    
+    margin: 3rem;
+    margin-top: 3rem;
 
 }
+
+/*Div com os cards*/
+.div_card {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    text-align: center;
+
+    
+    
+
+}
+
+/*Imagem de cada pessoa no card*/
+.img_card {
+    border-radius: 50%;
+    justify-content: center;
+    width: 4rem;
+
+}
+
+/*Nome de cada pessoa do card*/
+h4 {
+    font-weight: bolder
+
+}
+
+/*Texto da descrição de cada pessoa*/
+.descricao_img_card {
+
+
+}
+
+
 
 
 /*Div com o botão da 3ª parte corpo do site*/
@@ -365,13 +398,16 @@ h3 {
 
 
 
+      /*FOOTER*/
 
-
-
-
-
-
-
+footer {
+    justify-content: center;
+    padding-left: 0;
+    padding-right: 0;
+    box-sizing: border-box;
+    
+        
+}
 
 
 /*Footer laranja*/
@@ -457,7 +493,7 @@ h3 {
 
 .section_rodape_preto{
     display: grid;
-    grid-template-columns: repeat(4, minmax(0, 1fr));
+    grid-template-columns: repeat(4, minmax(0, 1fr)); /*pra dividir em 4 seções*/
     
     margin: 3rem;
     margin-top: 3rem;
@@ -618,3 +654,95 @@ h3 {
 
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Esse trabalho foi feito por Luciene Lima*/
