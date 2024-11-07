@@ -27,6 +27,24 @@ body {
     /*padding: 2rem;*/
     /*text-align: center;*/
 
+    background-color: #eeeaea1a;
+
+}
+
+
+
+/*Imagem de fundo da main*/
+.img_fundo_page {
+    /*background-image: url('../images/bg-simplify-section-desktop.svg');*/
+    /*background-color: var(--cor_hover_btn_get_started);
+    /*background-position: right -200px top -150px; /* Ajuste conforme necessário */
+    /*background-repeat: no-repeat;
+    background-position: 12.5rem calc(90%); /*200px*/
+    /*background-size: contain;
+    background-size: auto, 100%;
+    width: 100%; /* Adicione uma largura */
+    /*height: 15.62rem; /* Defina uma altura adequada */
+
 }
 
       /*HEADER*/
@@ -342,8 +360,8 @@ h3 {
     /*border: 1px solid #ccc;*/
     padding: 1rem;
     text-align: center;
-    /*background-color: #ffffff5d;*/
-    background-color: #f0eded49;    
+    /*background-color: #f0eded49;*/
+    background-color: #f0eded65;    
     align-items: center;
 
     
