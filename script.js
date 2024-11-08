@@ -9,24 +9,30 @@ function btn_enviar_email() {
     let msgm_erro = document.getElementById("msgm_erro_email");
 
     /*Expressão pra validar o email*/
-    let caracter = /^[^\s@]+@]+\.^\s@]+$/;
+    let caracter = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
+
+
+    
     /*Verificando se o email é válido*/
     if (!caracter.test(email)) {
        
        /*Mensagem de erro*/
        document.getElementById("msgm_erro_email").innerHTML = "Por favor, insira um e-mail válido";
 
-       msgm_erro.style.color = "red";
+       /*Cor vermelha na msgm de erro*/
+       msgm_erro.style.color = "rgb(230, 89, 89)";
+
+       /*Margin Left na msgm de erro*/
+       msgm_erro.style.marginLeft = "-3rem";
+
     
     } else {
 
         /*Limpar a msgm erro*/
         msgm_erro.innerHTML = '';
-        /*document.getElementById("E-mail válido:" , email);*/
         
     }
-
 
     
 }
