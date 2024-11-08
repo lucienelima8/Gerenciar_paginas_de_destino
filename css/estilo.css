@@ -606,6 +606,8 @@ footer {
     padding-right: 2rem;
 
     margin-left: -4rem;
+    margin-bottom: 1rem;
+
      
 
 }
@@ -643,6 +645,14 @@ footer {
 
 .btn_rodape_preto:hover {
     background-color: var(--cor_hover_btn_get_started);
+
+
+}
+
+/*Parágrafo pra aparecer msgm com a função no JS*/
+.p_msgm_email_rodape_preto {
+    margin-left: -5rem;
+
 
 
 }
