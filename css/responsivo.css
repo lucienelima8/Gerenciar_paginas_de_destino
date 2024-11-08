@@ -18,6 +18,83 @@
 
 @media screen and (max-width: 400px) {
 
+    /*HEADER*/
+
+    header {
+
+
+    }
+
+    /*Logo*/
+    .imagem_logo{
+        /*margin: left;*/
+        margin-top: 2rem;
+        margin-left: 5rem;
+        width: 1rem;
+
+    }
+
+
+    /*1ª parte CORPO DO SITE*/
+    .div_corpo_site {
+        
+        display: grid;
+        display: block;
+
+        justify-content: center;
+        align-items: center;
+        
+
+    }
+
+    /*Article com o h1, p e botão*/
+    .article_corpo_site{
+        grid-template-rows: repeat(1, 1fr);
+
+
+    }
+
+    /*Título do article 1ª parte do corpo do site*/
+    /*Bring everyone together to build...*/
+    h1 {
+        font-size: 2rem;
+
+
+    }
+
+    /*Manage makes it simple for...*/
+    .p_do_h1 {
+
+    }
+
+    .btn_h1 {
+
+    }
+
+    .btn_h1:hover {
+
+
+    }
+
+    /*Article com 3 imagens com %, gráfico e disco*/
+   .article_imagem_corpo {
+
+    grid-template-rows: repeat(1, 1fr);
+
+
+    max-width: 100%;
+
+
+   }
+
+   /*Imagem com 3*/
+   .img_3img_corpo {
+    
+
+   }
+
+   
+
 
 }
 
