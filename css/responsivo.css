@@ -31,27 +31,46 @@
     
     }
 
-    /*HEADER*/
-
-    header {
+    body {
+        background-color: #eeeaea1a;
 
 
     }
+
+    /*HEADER*/
+
+    header {
+        width: auto;
+
+
+    }
+
+    /*Menu*/
+    /*elemento pai*/
+   .ul_menu {
+    display: none; /*ocultar o menu*/
+
+   }
+
+    
+   /*Botão do header*/
+   .btn_header {
+    display: none; /*ocultar o botão do header*/
+
+   }
 
     /*Logo*/
     .imagem_logo{
         /*margin: left;*/
-        margin-top: 2rem;
-        margin-left: 5rem;
-        width: 1rem;
+        margin-top: -1rem;
+        /*margin-left: 5rem;*/
+        width: 5rem;
+        margin-left: -12rem;
+        height: auto;
 
     }
 
-    body {
-        
-
-    }
-
+    
       /*1ª parte CORPO DO SITE*/
     
     .div_corpo_site {
@@ -67,6 +86,7 @@
         text-align: center;
 
         margin: 1rem;
+        margin-top: 3rem;
         
 
     }
@@ -83,7 +103,7 @@
     h1 {
         font-size: 2rem;       
         text-align: center;
-       
+        margin-top: -2rem;
 
 
     }
@@ -92,15 +112,14 @@
     .p_do_h1 {
         font-size: 1rem;
         text-align: justify;
-        margin: 2rem;
-
-        
+        margin: 2rem;        
 
     }
 
     .btn_h1 {
         font-size: .8rem;
         background-color: var(--cor_hover_btn_get_started);
+        padding: .7rem;
         
 
     }
@@ -113,20 +132,16 @@
 
     /*Article com 3 imagens com %, gráfico e disco*/
    .article_imagem_corpo {
-
-    /*grid-template-rows: repeat(1, 1fr);*/
-
-    order: -1; /*Mover a img acima do texto */
-
-    /*max-width: 50%;*/
+       order: -1; /*Mover a img acima do texto */
+       
 
 
    }
 
    /*Imagem com 3*/
    .img_3img_corpo {
-    max-width: 18rem;
-    justify-content: center;
+        max-width: 18rem;
+        justify-content: center;
     
 
    }
@@ -154,25 +169,30 @@
    
     /*What’s different about Manage?*/
     h2 {
-        font-size: 2rem;       
+        font-size: 1.6rem;       
         text-align: center;
 
     }
 
     /*Parágrafo do Article corpo 2*/
     .p_article_corpo2 {
+        text-align: center;
+        font-size: .9rem;
+        margin: 2rem;
 
 
     }
 
     /*Article com 3 ítens de textos*/
     .article_3itens_corpo2 {
-
+        margin: 1rem;
+        
 
     }
 
     /*Span com os números de cada item*/
     .numero_item_article_corpo2 {
+
 
 
     }
@@ -185,6 +205,9 @@
 
     /*Parágrafo de cada item*/
     .p_item_article_corpo2 {
+        text-align: left;
+        font-size: .9rem;
+        margin: 0rem;
 
     }
 
