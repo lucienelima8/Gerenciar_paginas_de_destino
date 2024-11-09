@@ -120,6 +120,7 @@
         font-size: .8rem;
         background-color: var(--cor_hover_btn_get_started);
         padding: .7rem;
+        margin-bottom: 2rem;
         
 
     }
@@ -179,28 +180,59 @@
         text-align: center;
         font-size: .9rem;
         margin: 2rem;
+        margin-bottom: 1rem;
 
 
     }
 
     /*Article com 3 ítens de textos*/
     .article_3itens_corpo2 {
-        margin: 1rem;
+        margin: 0rem;
         
 
     }
 
+    /*Div com o número do item e o título*/
+    .div_item_numero_titulo_corpo2 {
+        display: flex;
+        
+    }
+
     /*Span com os números de cada item*/
     .numero_item_article_corpo2 {
-
+        /*float: left;*/
+        padding-top: .58rem;
+        padding-bottom: .7rem;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        font-size: .8rem;
 
 
     }
 
     /*Título de cada número*/
     h3 {
+        font-size: 1.1rem;
+        text-align: center;
 
+        /*margin: 2rem;*/
+        /*margin-bottom: -0.5rem;*/
+        margin-top: 0.3rem;
+        margin-left: 0;
 
+        border: 1px solid var(--cor_hover_btn_get_started);
+        border-radius: 30px;
+        border-width: 0;
+        background-color: rgba(250, 104, 51, 0.384);
+        border: none;
+        opacity: 0.8;
+
+        padding: .18rem;
+        /*padding-top: 1rem;
+        /*padding-left: -1rem;*/
+        
+
+        
     }
 
     /*Parágrafo de cada item*/
@@ -208,6 +240,7 @@
         text-align: left;
         font-size: .9rem;
         margin: 0rem;
+        margin-bottom: 1rem;
 
     }
 
