@@ -18,6 +18,19 @@
 
 @media screen and (max-width: 400px) {
 
+    :root {
+        --cor_btn_get_started: rgba(255, 68, 0, 0.884);
+        --cor_hover_btn_get_started: rgba(250, 104, 51, 0.884);
+    
+    }
+    
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    
+    }
+
     /*HEADER*/
 
     header {
@@ -34,15 +47,25 @@
 
     }
 
+    body {
+        
+
+    }
 
     /*1ª parte CORPO DO SITE*/
     .div_corpo_site {
         
-        display: grid;
-        display: block;
+        /*display: grid;*/
+        /*display: block;*/
 
-        justify-content: center;
-        align-items: center;
+        grid-template-columns: 1fr; /*layout de coluna única*/
+        grid-template-rows: auto; /*ajuste de linha automático*/
+
+        /*justify-content: center;*/
+        /*align-items: center;*/
+        text-align: center;
+
+        margin: 1rem;
         
 
     }
@@ -50,24 +73,34 @@
     /*Article com o h1, p e botão*/
     .article_corpo_site{
         grid-template-rows: repeat(1, 1fr);
-
+        margin: 1.2rem;
 
     }
 
     /*Título do article 1ª parte do corpo do site*/
     /*Bring everyone together to build...*/
     h1 {
-        font-size: 2rem;
+        font-size: 2rem;       
+        text-align: center;
+       
 
 
     }
 
     /*Manage makes it simple for...*/
     .p_do_h1 {
+        font-size: 1rem;
+        text-align: justify;
+        margin: 2rem;
+
+        
 
     }
 
     .btn_h1 {
+        font-size: .8rem;
+        background-color: var(--cor_hover_btn_get_started);
+        
 
     }
 
@@ -79,16 +112,19 @@
     /*Article com 3 imagens com %, gráfico e disco*/
    .article_imagem_corpo {
 
-    grid-template-rows: repeat(1, 1fr);
+    /*grid-template-rows: repeat(1, 1fr);*/
 
+    order: -1; /*Mover a img acima do texto */
 
-    max-width: 100%;
+    /*max-width: 50%;*/
 
 
    }
 
    /*Imagem com 3*/
    .img_3img_corpo {
+    max-width: 18rem;
+    justify-content: center;
     
 
    }

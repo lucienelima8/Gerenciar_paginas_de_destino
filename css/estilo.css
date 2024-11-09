@@ -206,7 +206,7 @@ h1 {
 .btn_h1 {
     color: white;
     background-color: var(--cor_btn_get_started);
-    float: left;
+    /*float: left;*/
     border: none;
     border-radius: 30px;
     font-size: 1rem;
