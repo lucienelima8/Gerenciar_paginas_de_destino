@@ -52,7 +52,8 @@
 
     }
 
-    /*1ª parte CORPO DO SITE*/
+      /*1ª parte CORPO DO SITE*/
+    
     .div_corpo_site {
         
         /*display: grid;*/
@@ -105,6 +106,7 @@
     }
 
     .btn_h1:hover {
+        background-color: none; /* Remove a cor de fundo ao passar com o mouse*/
 
 
     }
@@ -129,8 +131,62 @@
 
    }
 
-   
 
+
+         /*2ª parte CORPO DO SITE*/
+
+    /*2ª corpo do site*/
+    .div_corpo2_site {
+        grid-template-columns: 1fr; /*layout de coluna única*/
+        grid-template-rows: auto; /*ajuste de linha automático*/
+
+        text-align: center;
+
+        margin: 1rem;
+
+    }
+
+    /*Article com o h2 e texto*/
+    .article_corpo2 {
+
+
+    }
+   
+    /*What’s different about Manage?*/
+    h2 {
+        font-size: 2rem;       
+        text-align: center;
+
+    }
+
+    /*Parágrafo do Article corpo 2*/
+    .p_article_corpo2 {
+
+
+    }
+
+    /*Article com 3 ítens de textos*/
+    .article_3itens_corpo2 {
+
+
+    }
+
+    /*Span com os números de cada item*/
+    .numero_item_article_corpo2 {
+
+
+    }
+
+    /*Título de cada número*/
+    h3 {
+
+
+    }
+
+    /*Parágrafo de cada item*/
+    .p_item_article_corpo2 {
+
+    }
 
 }
 
