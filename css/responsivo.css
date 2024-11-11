@@ -215,26 +215,32 @@
     h3 {
         font-size: 1.1rem;
         text-align: center;
+        align-items: center;
+
 
         /*margin: 2rem;*/
         /*margin-bottom: -0.5rem;*/
         margin-top: 0.3rem;
-        margin-left: 0;
+        margin-left: -1rem;
 
         border: 1px solid var(--cor_hover_btn_get_started);
-        border-radius: 30px;
-        border-width: 0;
+        border-radius: 0;
+        /*border-width: 0;*/
+        box-sizing: border-box; /* Inclui a borda na largura total do elemento */
+
+
+        /*Faz o texto ocupar toda a largura do container*/
+        width: 100%;
+
         background-color: rgba(250, 104, 51, 0.384);
         border: none;
         opacity: 0.8;
 
-        padding: .18rem;
-        /*padding-top: 1rem;
+        /*padding: .18rem;*/
+        /*padding-top: 1rem;*/
         /*padding-left: -1rem;*/
 
-        align-items: center;
-
-        
+       
 
         
     }
@@ -247,6 +253,206 @@
         margin-bottom: 1rem;
 
     }
+
+          /*3ª parte CORPO DO SITE com carrossel*/
+
+    /*h2 com Título da 3ª parte corpo do site*/
+    .h2_titulo_corpo3 {
+
+
+    }
+
+     /*Cards*/
+     /*Section com todos os cards*/
+    .section_cards {
+
+
+    }
+
+    /*Div com os cards*/
+   .div_card {
+
+
+   }
+
+   /*Imagem de cada pessoa no card*/
+   .img_card {
+
+
+   }
+
+   /*Nome de cada pessoa do card*/
+   h4  {
+
+
+   }
+
+   /*Texto da descrição de cada pessoa*/
+   .descricao_img_card {
+
+
+   }
+
+   /*Div com o botão da 3ª parte corpo do site*/
+   .div_btn_corpo3 {
+
+
+   }
+
+   /*Botão da 3ª parte corpo do site*/
+   .btn_corpo3 {
+
+
+   }
+
+   .btn_corpo3:hover {
+
+
+   }
+
+
+         /*FOOTER*/
+
+    footer {
+
+
+    }
+
+
+    /*Footer laranja*/
+
+    /*div laranja com um botão*/
+    .rodape_laranja {
+
+
+    }
+
+    /*Imagem de fundo rodapé laranja*/
+    .img_fundo_laranja {
+
+
+    }
+
+    /*Simplify how your team works today*/
+    .p_rodape_laranja {
+
+
+    }
+
+    .btn_rodape_laranja {
+
+    }
+
+    .btn_rodape_laranja:hover {
+
+
+    }
+
+    /*Footer preto*/
+
+   /*Div rodapé preto*/
+   .rodape_preto {
+
+
+   }
+
+   .section_rodape_preto {
+
+
+   }
+
+   /*Nome da logo no rodapé laranja*/
+   .nome_logo_rodape {
+
+
+   }
+ 
+   /*4 pontos no nome da logo*/
+   .quatro_pontos {
+
+
+   }
+
+   /*Article com o 1º bloco de links*/
+   .article_rodape_preto {
+
+
+   }
+
+   /*Links do rodapé preto*/
+   .link_rodape_preto {
+
+
+   }
+
+   .link_rodape_preto:hover {
+
+
+   }
+
+   /*Article com o 2º bloco de links */
+  .article_rodape_preto2 {
+
+
+  }
+
+  /*Article com o bloco do input e btn */
+  .article_rodape_preto3 {
+
+
+  }
+
+  /*Input do rodape preto*/
+  .input_rodape_preto {
+
+
+  }
+
+  .placeholder_input {
+
+
+  }
+
+  .placeholder_input:hover {
+
+
+  }
+
+  .btn_rodape_preto {
+
+
+  }
+
+  .btn_rodape_preto:hover {
+
+
+  }
+
+  /*Parágrafo pra aparecer msgm com a função no JS*/
+  .p_msgm_email_rodape_preto {
+
+
+  }
+
+  .p_copyright {
+
+
+  }
+
+  /*Div com os ícones das redes sociais*/
+  .div_redes_sociais {
+
+
+  }
+
+  /*Ícones de redes sociais*/
+  .icon_rodape {
+
+  }
+
+  .icon_rodape:hover {
+    
+  }
 
 }
 
