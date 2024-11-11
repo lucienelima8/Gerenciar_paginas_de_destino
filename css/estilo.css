@@ -399,6 +399,11 @@ h4 {
 
 }
 
+/*Bolinhas do carrossel*/
+#slide1, #slide2, #slide3, #slide4 {
+    /*Não ficarem visíveis em telas grandes*/
+    display: none;
+   }
 
 
 /*Div com o botão da 3ª parte corpo do site*/

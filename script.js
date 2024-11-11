@@ -1,3 +1,5 @@
+/* JS INPUT DO EMAIL*/
+
 /*JavaScript para mensagem de erro caso o usuário digite um email inválido*/
 
 function btn_enviar_email() {
