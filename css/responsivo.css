@@ -195,6 +195,7 @@
     /*Div com o número do item e o título*/
     .div_item_numero_titulo_corpo2 {
         display: flex;
+
         
     }
 
@@ -230,6 +231,9 @@
         padding: .18rem;
         /*padding-top: 1rem;
         /*padding-left: -1rem;*/
+
+        align-items: center;
+
         
 
         
