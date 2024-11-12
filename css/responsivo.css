@@ -260,6 +260,8 @@
     .h2_titulo_corpo3 {
         font-size: 1.6rem;       
         text-align: center;
+        margin-top: 1rem;
+        margin-bottom: 2rem;
 
 
     }
@@ -277,64 +279,60 @@
 
     }
 
-    /*Div com os cards*/
-   .div_card {
-    text-align: center;
-    padding: 20px;
-    /*Pra cada card ocupar 100% da largura*/
+     /*Div com os cards*/
+    .div_card {
+        text-align: center;
+        padding: 20px;
+        /*Pra cada card ocupar 100% da largura*/
     
-    flex: 0 0 100%;
-    transition: transform 0.6s ease;
+        flex: 0 0 100%;
+        transition: transform 0.6s ease;
+        margin-top: 2rem;
+    }
 
-
-
-   }
-
-   /*Navegação*/
-   .div_carrossel_nav {
     
 
-   }
+
+    /*Imagem de cada pessoa no card*/
+    .img_card {
+        margin-top: -3rem;
+
+    
+
+
+    }
+
+    /*Nome de cada pessoa do card*/
+    h4  {
+
+
+    }
+
+    /*Texto da descrição de cada pessoa*/
+    .descricao_img_card {
+
+
+    }
 
    
 
-
-   /*Imagem de cada pessoa no card*/
-   .img_card {
-
-
-   }
-
-   /*Nome de cada pessoa do card*/
-   h4  {
+    /*Div com o botão da 3ª parte corpo do site*/
+    .div_btn_corpo3 {
+        margin-top: 3rem;
 
 
-   }
+    }
 
-   /*Texto da descrição de cada pessoa*/
-   .descricao_img_card {
-
-
-   }
-
-   
-
-   /*Div com o botão da 3ª parte corpo do site*/
-   .div_btn_corpo3 {
+    /*Botão da 3ª parte corpo do site*/
+    .btn_corpo3 {
 
 
-   }
+    }
 
-   /*Botão da 3ª parte corpo do site*/
-   .btn_corpo3 {
-
-
-   }
-
-   .btn_corpo3:hover {
+    .btn_corpo3:hover {
 
 
-   }
+    }
 
 
          /*FOOTER*/
