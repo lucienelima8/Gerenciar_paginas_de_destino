@@ -369,7 +369,7 @@
         font-size: 2rem;
         margin-left: 0;
         text-align: center;
-        margin-top: -1rem;
+        margin-top: -2rem;
         /*margin-bottom: 2rem;*/
 
 
@@ -398,12 +398,19 @@
    }
 
    .section_rodape_preto {
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
 
 
    }
 
    /*Nome da logo no rodapé laranja*/
    .nome_logo_rodape {
+    margin-top: 1rem;
+    text-align: center;
+    /*order: -4; /*Mover a img acima do texto */
+
 
 
    }
@@ -416,12 +423,17 @@
 
    /*Article com o 1º bloco de links*/
    .article_rodape_preto {
+    margin-top: 5rem;
+    gap: 1rem;
+   
+
 
 
    }
 
    /*Links do rodapé preto*/
    .link_rodape_preto {
+
 
 
    }
@@ -433,23 +445,40 @@
 
    /*Article com o 2º bloco de links */
   .article_rodape_preto2 {
+    margin-top: 5rem;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+
 
 
   }
 
   /*Article com o bloco do input e btn */
   .article_rodape_preto3 {
+    justify-content: center;
+    order: -1; /*Mover a img acima do texto */
+
+    margin-top: -5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
 
 
   }
 
   /*Input do rodape preto*/
   .input_rodape_preto {
+    margin-left: 0;
+    padding-right:0 ;
+
+
 
 
   }
 
   .placeholder_input {
+    text-align: left;
 
 
   }
@@ -460,6 +489,7 @@
   }
 
   .btn_rodape_preto {
+    margin-top: -1rem;
 
 
   }
@@ -472,22 +502,37 @@
   /*Parágrafo pra aparecer msgm com a função no JS*/
   .p_msgm_email_rodape_preto {
 
-
+    
   }
 
   .p_copyright {
+    margin-top: 10rem;
+
+    
 
 
   }
 
   /*Div com os ícones das redes sociais*/
   .div_redes_sociais {
+    order: 1; /*Mover a img acima do texto */
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    
+
+
+
 
 
   }
 
   /*Ícones de redes sociais*/
   .icon_rodape {
+    margin-top: 1rem;
+    font-size: .7rem;
+    order: -3; /*Mover a img acima do texto */
+
 
   }
 
