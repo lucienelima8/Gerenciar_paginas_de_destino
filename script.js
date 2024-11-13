@@ -20,7 +20,7 @@ function btn_enviar_email() {
     if (!caracter.test(email)) {
        
        /*Mensagem de erro*/
-       document.getElementById("msgm_erro_email").innerHTML = "Por favor, insira um e-mail válido";
+       document.getElementById("msgm_erro_email").innerHTML = "Por favor, insira um e-mail válido.";
 
        /*Cor vermelha na msgm de erro*/
        msgm_erro.style.color = "rgb(230, 89, 89)";

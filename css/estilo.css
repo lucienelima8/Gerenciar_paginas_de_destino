@@ -535,16 +535,16 @@ footer {
     grid-template-columns: repeat(4, minmax(0, 1fr)); /*pra dividir em 4 seções*/
     
     margin: 3rem;
-    margin-top: 3rem;
+    /*margin-top: 3rem;*/
 
 
 }
 
-/*Nome da logo no rodapé laranja*/
+/*Nome da logo no rodapé preto*/
 .nome_logo_rodape {
     margin-left: 5rem;
     margin-right: 5rem;
-    gap: 2rem;
+    gap: 1rem;
     color: white;
     font-size: 2rem;
     font-weight: 200;
@@ -572,7 +572,8 @@ footer {
 .article_rodape_preto {
     /*margin-left: 8rem;*/
     margin-top: 1rem;
-
+    margin-left: -2rem;
+    
     
 
 }
@@ -580,7 +581,7 @@ footer {
 /*Links do rodapé preto*/
 .link_rodape_preto {
     color: white;
-    font-size: 1.1rem;
+    font-size: 1rem;
     cursor: pointer;
     font-weight: 200;
     letter-spacing: .1rem;
@@ -595,6 +596,7 @@ footer {
 /*Article com o 2º bloco de links */
 .article_rodape_preto2 {
     margin-top: 1rem;
+    margin-left: -3rem;
 
    
 
@@ -602,6 +604,8 @@ footer {
 
 /*Article com o bloco do input e btn */
 .article_rodape_preto3 {
+    /*margin-right: 2rem;*/
+    margin-left: -1rem;
 
 }
 
@@ -612,12 +616,13 @@ footer {
     border: none;
     font-weight: 200;
     letter-spacing: .1rem;
+    font-size: .8rem;
 
-    padding: .8rem;
+    padding: .7rem;
     padding-left: 2rem;
     padding-right: 2rem;
 
-    margin-left: -4rem;
+    margin-left: -6rem;
     margin-bottom: 1rem;
 
      
@@ -663,20 +668,31 @@ footer {
 
 /*Parágrafo pra aparecer msgm com a função no JS*/
 .p_msgm_email_rodape_preto {
+    font-size: .7rem;
+    text-align: center;
+    margin-left: -2rem;
 
 
 }
 
+/*Copyright*/
 .p_copyright {
     color: #ffffff5d;
     margin-top: 2rem;
-    font-size: .9rem;
+    margin-left: -2rem;
+    margin-bottom: 1rem;
+    font-size: .8rem;
+    text-align: center;
+
 }
 
 /*Div com os ícones das redes sociais*/
 .div_redes_sociais {
     margin-left: 5rem;
     margin-right: 5rem;
+    margin-top: .2rem;
+
+
     gap: 3rem;
     font-size: 1rem;
     letter-spacing: .4rem;
@@ -688,6 +704,7 @@ footer {
 .icon_rodape {
     font-size: 1rem;
     cursor: pointer;
+       
     
     
 }
