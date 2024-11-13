@@ -389,156 +389,171 @@
 
     }
 
-    /*Footer preto*/
+     /*Footer preto*/
 
-   /*Div rodapé preto*/
-   .rodape_preto {
-
-
-   }
-
-   .section_rodape_preto {
-    align-items: center;
-    display: grid;
-    grid-template-columns: repeat(1, minmax(0, 1fr));
+    /*Div rodapé preto*/
+    .rodape_preto {
 
 
-   }
+    }
 
-   /*Nome da logo no rodapé laranja*/
-   .nome_logo_rodape {
-    margin-top: 1rem;
-    text-align: center;
-    /*order: -4; /*Mover a img acima do texto */
-
+    .section_rodape_preto {
+        align-items: center;
+        display: grid;
+        grid-template-columns: repeat(1, minmax(0, 1fr));
 
 
-   }
+    }
+
+     /*Nome da logo no rodapé laranja*/
+    .nome_logo_rodape {
+        margin-top: 0;
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: -2rem;
+        text-align: center;
+        order: 4; /*Mover a img acima do texto */
+        justify-content: center;
+    }
  
-   /*4 pontos no nome da logo*/
-   .quatro_pontos {
+    /*4 pontos no nome da logo*/
+    .quatro_pontos {
+        /*order: 5;*/
+        
 
+  
 
-   }
+    }
 
-   /*Article com o 1º bloco de links*/
-   .article_rodape_preto {
-    margin-top: 5rem;
-    gap: 1rem;
+     /*Article com o 1º bloco de links*/
+    .article_rodape_preto {
+        margin-top: 5rem;
+        gap: 1rem;
    
+  
+    }
+
+     /*Links do rodapé preto*/
+    .link_rodape_preto {
+        
+
+    }
+
+    .link_rodape_preto:hover {
 
 
 
-   }
+    }
 
-   /*Links do rodapé preto*/
-   .link_rodape_preto {
-
-
-
-   }
-
-   .link_rodape_preto:hover {
+     /*Article com o 2º bloco de links */
+    .article_rodape_preto2 {
+        margin-top: 5rem;
+        margin-left: 1rem;
+        margin-bottom: 1rem;
 
 
-   }
+    }
 
-   /*Article com o 2º bloco de links */
-  .article_rodape_preto2 {
-    margin-top: 5rem;
-    margin-left: 1rem;
-    margin-bottom: 1rem;
+     /*Article com o bloco do input e btn */
+    .article_rodape_preto3 {
+        /*justify-content: center;*/
+        order: -1; /*Mover a img acima do texto */
 
-
-
-  }
-
-  /*Article com o bloco do input e btn */
-  .article_rodape_preto3 {
-    justify-content: center;
-    order: -1; /*Mover a img acima do texto */
-
-    margin-top: -5rem;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+        margin-top: 1rem;
+        /*display: flex;
+        flex-direction: row;*/
+        align-items: center;
+        text-align: center;    
 
 
 
-  }
+    }
 
-  /*Input do rodape preto*/
-  .input_rodape_preto {
-    margin-left: 0;
-    padding-right:0 ;
+    input .placeholder_input {
+        margin-left: 0;
+        color: red;
 
+    }
 
+    /*Input do rodape preto*/
+    .input_rodape_preto {
+        margin-left: 0;
+        padding-right:0 ;
 
+    }
 
-  }
-
-  .placeholder_input {
-    text-align: left;
-
-
-  }
-
-  .placeholder_input:hover {
+    .placeholder_input {
+        /*text-align: left;*/
 
 
-  }
+    }
 
-  .btn_rodape_preto {
-    margin-top: -1rem;
-
-
-  }
-
-  .btn_rodape_preto:hover {
+    .placeholder_input:hover {
 
 
-  }
 
-  /*Parágrafo pra aparecer msgm com a função no JS*/
-  .p_msgm_email_rodape_preto {
+    }
 
+ 
+    .btn_rodape_preto {
+        margin-top: -1rem;
+
+
+    }
+
+    .btn_rodape_preto:hover {
+
+
+
+    }
+
+    /*Parágrafo pra aparecer msgm com a função no JS*/
+    .p_msgm_email_rodape_preto {
+        margin-top: 2rem; 
+   
     
-  }
+    }
 
-  .p_copyright {
-    margin-top: 10rem;
+    .p_copyright {
+        /*margin-top: 10rem;*/
+        margin-top: 2rem;
 
-    
+    }
 
+    /*Div com os ícones das redes sociais*/
+    .div_redes_sociais {
+        order: 1; /*Mover a img acima do texto */
+        /*display: flex;*/
+        /*flex-direction: row;*/
+        /*gap: 2rem;*/
 
-  }
+        margin-left: 0;
+        margin-right: 0;
 
-  /*Div com os ícones das redes sociais*/
-  .div_redes_sociais {
-    order: 1; /*Mover a img acima do texto */
-    display: flex;
-    flex-direction: row;
-    gap: 1rem;
-    
+        text-align: center;
 
-
-
-
-
-  }
-
-  /*Ícones de redes sociais*/
-  .icon_rodape {
-    margin-top: 1rem;
-    font-size: .7rem;
-    order: -3; /*Mover a img acima do texto */
+        /*Espaço entre os ícones*/
+        letter-spacing: 2rem;
 
 
-  }
 
-  .icon_rodape:hover {
+    }
 
-  }
+    /*Ícones de redes sociais*/
+    .icon_rodape {
+        margin-top: 1rem;
+        margin-bottom: 1.6rem;
+        font-size: .7rem;
+        /*order: -3; /*Mover a img acima do texto */
+
+        gap: 3rem;
+
+    }
+
+    .icon_rodape:hover {
+
+
+    }
 
 }
 
