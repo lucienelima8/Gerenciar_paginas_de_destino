@@ -8,10 +8,213 @@
 /*RESPONSIVIDADE TABLET*/
 /*RESPONSIVIDADE CELULAR horizontal*/
 
-@media screen and (max-width: 932px) {
+@media screen and (min-width: 431px) and (max-width: 932px) {
+
+    header {
+        width: auto;
+        max-width: 80%;
+    }
+
+    /*Logo*/
+    .imagem_logo {
+        margin-left: 5rem;
+        width: 5rem;
+        height: 1rem;
+
+
+    }
+
+    ul, li, a {
+        gap: 1rem;
+        font-size: .8rem;
+
+    }
+
+    ul {
+        text-align: center;
+
+    }
+
+    li {
+        padding-left: .7rem;
+    }
+
+
+    /*Div botão header*/
+    .div_btn_header {
+        margin-left: 2rem;
+        margin-right: -6rem;
+
+    }
+
+    .btn_header {
+        font-size: .6rem;
+        padding: .3rem 1.2rem .3rem 1.2rem;
+
+    }
+
+          /*1ª parte CORPO DO SITE*/
+    
+    /*Div corpo do site*/
+    .div_corpo_site {
+        margin-left: 5rem;
+        margin-right: -4rem;
+
+        gap: 1rem;
+
+        
+    }
+
+    /*Article com o h1, p e botão*/
+    .article_corpo_site {
+        margin-right: 3rem;
+        
+    }
+
+    /*Título do article 1ª parte do corpo do site*/
+    /*Bring everyone together to build...*/
+    h1 {
+        font-size: 1.5rem;
+        margin-right: 2rem;
+
+
+    }
+  
+    /*Manage makes it simple for...*/
+    .p_do_h1 {
+        font-size: 1rem;
+        margin-right: 2rem;
+
+    }
+
+    .btn_h1 {
+        font-size: .6rem;
+        padding: .6rem 1.2rem .6rem 1.2rem;
+
+    }
+
+    /*Article com 3 imagens com %, gráfico e disco*/
+    .article_imagem_corpo {
+        margin-left: .1rem;
+        margin-right: 8rem;
+
+    }
+
+     /*Imagem com 3*/
+    .img_3img_corpo { 
+        max-width: 100%;
+        margin-left: -2rem;
+        margin-right: 8rem;    
+    }
+
+          /*2ª parte CORPO DO SITE*/
+
+    /*2ª corpo do site*/
+    .div_corpo2_site {
+        margin-left: 5rem;
+        margin-right: -4rem;
+
+        gap: 1rem;
+
+    }
+
+     /*Article com o h2 e texto*/
+    .article_corpo2 {
+        margin-right: 3rem;
+
+
+    }
+
+     /*What’s different about Manage?*/
+    h2 {
+        font-size: 1.3rem;
+        margin-right: 2rem;
+
+    }
+
+    /*Parágrafo do Article corpo 2*/
+    .p_article_corpo2 {
+        font-size: 1rem;
+        margin-right: 2rem;
+
+
+    }
+
+    /*Article com 3 ítens de textos*/
+    .article_3itens_corpo2 {
+        margin-left: -2rem;
+        margin-right: 6rem;
+
+    }
+
+    /*Div com o número do item e o título*/
+     .div_item_numero_titulo_corpo2 {
+        display: flex;
+
+    
+    }
+
+    /*Span com os números de cada item*/
+    .numero_item_article_corpo2 {
+        border-radius: 30px;
+        background-color: var(--cor_hover_btn_get_started);
+
+       font-size: .8rem;
+       color: white;
+       font-weight: bold;
+
+       padding-top: .3rem;
+       padding-bottom: .2rem;
+       padding-left: 1.5rem;
+       padding-right: 1.5rem;
+   
+   
+    }
+
+    /*Título de cada número*/
+    h3 {
+        margin-left: .4rem;
+        /*margin-top: -1.2rem;*/
+        font-size: 1.1rem;
+
+    }
+
+    /*Parágrafo de cada item*/
+    .p_item_article_corpo2 {
+        font-size: .9rem;
+        line-height: 1.80rem;
+        color: gray;
+        margin-left: 2.1rem;
+        margin-right: 3rem;
+        margin-bottom: 1.5rem;
+        max-width: 25rem;
+        text-align: left;
+
+
+    }
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 }
+
+
+
+
+
 
 
 
@@ -589,6 +792,10 @@
 
     }
 
+    /*Autora*/
+    .attribution {
+        text-align: center;
+    }
     
 
 }
