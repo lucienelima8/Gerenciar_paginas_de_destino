@@ -745,6 +745,30 @@ footer {
 }
 
 
+/*Autora*/
+.attribution {
+    color: #ffffff5d;
+    margin-top: 1rem;
+    margin-left: -2rem;
+    margin-bottom: 1rem;
+    font-size: .8rem;
+    text-align: center;
+
+
+}
+
+/*Link do attibution*/
+.attibution_link {
+    color: rgb(74, 74, 240);
+    font-size: .8rem;
+
+}
+
+.attibution_link:hover {
+    color: aquamarine;
+}
+
+
 
 
 
