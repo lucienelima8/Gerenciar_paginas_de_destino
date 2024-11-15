@@ -391,12 +391,13 @@
 
      /*Footer preto*/
 
-    /*Div rodapé preto*/
+    /*Div com todo o rodapé preto*/
     .rodape_preto {
 
 
     }
 
+    /*Section com logo, 2 articles com links, 1 article com input/btn/frase JS, div redes sociais*/
     .section_rodape_preto {
         align-items: center;
         display: grid;
@@ -405,23 +406,85 @@
 
     }
 
-     /*Nome da logo no rodapé laranja*/
+    /*Div com nome da logo e redes sociais*/
+    .div_logo_redes_socias {
+        margin-top: 2rem;
+        order: 3;
+
+    
+
+    }
+
+    /*Div com os ícones das redes sociais*/
+    .div_redes_sociais {
+        /*order: 1; /*Mover a img acima do texto */
+        /*display: flex;*/
+        /*flex-direction: row;*/
+        /*gap: 2rem;*/
+
+        margin-left: 0;
+        margin-right: 0;
+        /*margin-top: 20rem;*/
+
+        text-align: center;
+
+        /*Espaço entre os ícones*/
+        letter-spacing: 2rem;
+        order: -1;
+
+
+
+    }
+
+    /*Ícones de redes sociais*/
+    .icon_rodape {
+        margin-top: 1rem;
+        margin-bottom: 1.6rem;
+        font-size: .7rem;
+        /*order: -3; /*Mover a img acima do texto */
+
+        gap: 3rem;
+
+    }
+
+    .icon_rodape:hover {
+
+
+    }
+
+     /*Nome da logo no rodapé preto*/
     .nome_logo_rodape {
-        margin-top: 0;
+        margin-top: -8rem;
         margin-left: 0;
         margin-right: 0;
         margin-bottom: -2rem;
         text-align: center;
-        order: 4; /*Mover a img acima do texto */
+        /*order: 4; /*Mover a img acima do texto */
         justify-content: center;
     }
  
     /*4 pontos no nome da logo*/
     .quatro_pontos {
-        /*order: 5;*/
-        
+        /*order: 5;*/      
 
-  
+
+    }
+
+
+    /*Div com 2 articles de links*/
+    .div_2articles_links_rodape_preto {
+        /*display: grid;*/
+        /*grid-template-columns: repeat(2, minmax(0, 1fr)); /*pra dividir em 2 seções*/
+
+        margin-top: -2rem;
+        margin-bottom: 2rem;
+
+        /*order: -3;*/
+
+        justify-content: center;
+        align-items: center;
+
+
 
     }
 
@@ -429,7 +492,8 @@
     .article_rodape_preto {
         margin-top: 5rem;
         gap: 1rem;
-   
+
+           
   
     }
 
@@ -452,6 +516,7 @@
         margin-bottom: 1rem;
 
 
+
     }
 
      /*Article com o bloco do input e btn */
@@ -463,7 +528,8 @@
         /*display: flex;
         flex-direction: row;*/
         align-items: center;
-        text-align: center;    
+        text-align: center; 
+        margin-left: -1rem;  
 
 
 
@@ -479,6 +545,8 @@
     .input_rodape_preto {
         margin-left: 0;
         padding-right:0 ;
+        align-items: center;
+        justify-content: center;
 
     }
 
@@ -510,7 +578,8 @@
     /*Parágrafo pra aparecer msgm com a função no JS*/
     .p_msgm_email_rodape_preto {
         margin-top: 2rem; 
-       
+   
+    
     }
 
     .p_copyright {
@@ -519,40 +588,7 @@
 
     }
 
-    /*Div com os ícones das redes sociais*/
-    .div_redes_sociais {
-        order: 1; /*Mover a img acima do texto */
-        /*display: flex;*/
-        /*flex-direction: row;*/
-        /*gap: 2rem;*/
-
-        margin-left: 0;
-        margin-right: 0;
-
-        text-align: center;
-
-        /*Espaço entre os ícones*/
-        letter-spacing: 2rem;
-
-
-
-    }
-
-    /*Ícones de redes sociais*/
-    .icon_rodape {
-        margin-top: 1rem;
-        margin-bottom: 1.6rem;
-        font-size: .7rem;
-        /*order: -3; /*Mover a img acima do texto */
-
-        gap: 3rem;
-
-    }
-
-    .icon_rodape:hover {
-
-
-    }
+    
 
 }
 
