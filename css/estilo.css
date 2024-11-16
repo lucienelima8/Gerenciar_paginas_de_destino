@@ -261,9 +261,13 @@ h1 {
 
 /*What’s different about Manage?*/
 h2 {
+    margin-right: 3rem;
+    margin-bottom: 1.5rem;
+
     font-size: 2.5rem;
     line-height: 1; /*altura da caixa*/
-    margin-bottom: 1.5rem;
+    text-align: left;
+
 
 
 }
@@ -402,7 +406,7 @@ h4 {
 /*Bolinhas do carrossel*/
 #slide1, #slide2, #slide3, #slide4 {
     /*Não ficarem visíveis em telas grandes*/
-    display: none;
+    /*display: none;*/
    }
 
 

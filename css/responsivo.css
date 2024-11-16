@@ -193,8 +193,139 @@
 
     }
 
+          /*3ª parte CORPO DO SITE com carrossel*/
+    
+    /*h2 com Título da 3ª parte corpo do site*/
+    .h2_titulo_corpo3 {
+        font-size: 1.5rem;
+
+
+    }
+
+    /*Cards*/
+    /*Section com todos os cards*/
+    .section_cards {
+        margin: 1rem;
+        margin-right: 3rem;
+        margin-left: 3rem;
+        
+    }
+
+    /*Div com os cards*/
+    .div_card {
+        margin-left: auto;
+        align-items: center;
+        
+    }
+
+    /*Imagem de cada pessoa no card*/
+    .img_card {
+        width: 3rem;
+    }
+
+    /*Nome de cada pessoa do card*/
+    h4  {
+        font-size: 1rem;
+              
+
+    }
+
+    /*Texto da descrição de cada pessoa*/
+    .descricao_img_card {
+        font-size: .7rem;
+    
+    }
+
+    /*Div com o botão da 3ª parte corpo do site*/
+    .div_btn_corpo3 {
+        padding: .8rem;
+
+
+    }
+
+
+
+
+      /*FOOTER*/
+
+    /*Footer laranja*/
+
+    footer {
+
+    }
+
+    /*div laranja com um botão*/
+    .rodape_laranja {
+
+    }
+
+    /*Simplify how your team works today*/
+    .p_rodape_laranja {
+        font-size: 2rem;
+
+
+    }
 
     
+    /*Footer preto*/
+
+    /*Section com logo, 2 articles com links, 1 article com input/btn/frase JS, div redes sociais*/
+    .section_rodape_preto {
+        margin: 1rem;
+        /*gap: 2rem;*/
+
+    }
+
+    /*Div com nome da logo e div redes sociais*/
+    .div_logo_redes_socias {
+        gap: 1rem;
+
+    }
+
+    /*Div com os ícones das redes sociais*/
+    .div_redes_sociais {
+        margin-left: 1rem;
+
+    }
+
+    /*Nome da logo no rodapé preto*/
+    .nome_logo_rodape {
+        margin-left: 1rem;
+        margin-bottom: 8rem;
+    }
+
+    /*Article com o 1º bloco de links*/
+    .article_rodape_preto {
+        margin-left: -4rem;
+
+    }
+
+    /*Article com o 2º bloco de links */
+    .article_rodape_preto2 {
+        margin-left: 4rem;
+
+    }
+
+    /*Article com o bloco do input e btn */
+    .article_rodape_preto3 {
+        margin-left: 3rem;
+    
+    }
+    
+    /*Input do rodape preto*/
+    .input_rodape_preto {
+        padding: .7rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+
+    }
+
+    .btn_rodape_preto {
+        padding: .6rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+
+    }
 
 
 
@@ -376,6 +507,7 @@
     h2 {
         font-size: 1.6rem;       
         text-align: center;
+        margin: 0;
 
     }
 
@@ -796,6 +928,7 @@
     .attribution {
         text-align: center;
     }
+
     
 
 }
