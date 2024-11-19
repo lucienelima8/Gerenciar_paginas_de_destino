@@ -124,6 +124,12 @@ a:hover {
 
 }
 
+/*Div do menu hambúrguer*/
+.alternar_menu {
+    display: none;
+
+}
+
 /*Div botão header*/
 .div_btn_header {
     margin-left: 5rem;

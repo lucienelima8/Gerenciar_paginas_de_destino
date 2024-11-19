@@ -377,22 +377,13 @@
     header {
         width: auto;
 
+        /*Menu hamburguer*/
+        position: relative;
+        padding: 10px;
+        background-color: white;
+        color: black;
 
     }
-
-    /*Menu*/
-    /*elemento pai*/
-   .ul_menu {
-    display: none; /*ocultar o menu*/
-
-   }
-
-    
-   /*Botão do header*/
-   .btn_header {
-    display: none; /*ocultar o botão do header*/
-
-   }
 
     /*Logo*/
     .imagem_logo{
@@ -405,7 +396,140 @@
 
     }
 
+    /*Menu*/
     
+    /*elemento pai*/
+    .ul_menu {
+        /*display: none; /*ocultar o menu*/
+        list-style-type: none;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+
+
+    }
+
+    .ul_menu li {
+        margin: 15px 0;
+        justify-content: center;
+
+    }
+
+    .ul_menu li a {
+        text-decoration: none;
+        font-size: 1rem;
+        color: black;
+        font-weight: bold;
+
+
+    }
+
+    .ul_menu li a:hover {
+        color: rgba(36, 33, 33, 0.589);
+
+    }
+
+    /*Menu hambúrguer*/
+    .alternar_menu {
+        cursor: pointer;
+        display: flex;
+
+        justify-content: center;
+        width: 40px;
+        height: 40px;
+        /*absolute irá posicionar em relação ao pai*/
+        position: absolute;
+        /*distância do topo*/
+        top: 8px;
+        /*distância da margin direita*/
+        right: 10px;
+        
+
+    }
+
+    /*Ícone pra abrir e pra fechar o menu hambúrguer*/
+    .icon_hamburguer .icon_fechar_menu {
+        width: 30px;
+        height: 30px;
+        /*background-color: white;*/
+        /*border-radius: 5px;*/
+        position: absolute;
+        transition: opacity 0.3s ease;
+        /*align-items: right;*/
+        
+
+    }
+
+    /*X pra fechar o menu hambúrguer*/
+    .icon_fechar_menu {
+        opacity: 0;
+        visibility: hidden;
+        /*align-items: right;*/
+
+
+    }
+
+    /*Foto do hamburguer e do X*/
+    .img_hamburguer {
+        width: 2rem;
+        height: 2rem;
+        margin-top: -2rem;
+
+    }
+
+    /*Nav com o menu*/
+    .menu {
+        position: fixed;
+        /*top: 0;*/
+        right: -100%;
+        width: 100%;
+        /*height: 100vh;*/
+        height: 70vh;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: right 0.3s ease;
+        z-index: 100;
+        
+
+    }
+
+    .menu.open {
+        right: 0;
+        /*margin-right: 2rem;*/
+
+
+    }
+
+
+    /*Estilos para abrir e fechar*/
+    .alternar_menu.open .icon_hamburguer {
+        opacity: 0;
+        visibility: hidden;
+
+    }
+
+    .alternar_menu.open .icon_fechar_menu {
+        opacity: 1;
+        visibility: visible;
+        margin-right: 3rem;
+
+
+    }
+
+       
+    /*Botão do header*/
+    .btn_header {
+        display: none; /*ocultar o botão do header pra celular*/
+
+    }
+
+
+
+        
       /*1ª parte CORPO DO SITE*/
     
     .div_corpo_site {
