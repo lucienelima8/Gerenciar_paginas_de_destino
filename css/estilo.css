@@ -354,7 +354,8 @@ h3 {
 .h2_titulo_corpo3 {
     text-align: center;
     font-size: 2.5rem;
-    margin-top: 6rem
+    margin-top: 6rem;
+    margin-bottom: 2rem;
 
 }
 
@@ -362,35 +363,65 @@ h3 {
 /*Cards*/
 /*Section com todos os cards*/
 .section_cards {
-    display: grid;
-    grid-template-columns: repeat(4, minmax(0, 1fr)); /*pra dividir em 4 seções*/
+    /*display: grid;*/
+    /*grid-template-columns: repeat(4, minmax(0, 1fr)); /*pra dividir em 4 seções*/
     
-    margin: 3rem;
+    /*margin: 3rem;*/
     margin-top: 3rem;
+    margin-left: 2rem;
+    margin-right: 3rem;
 
+    gap: 1rem;
+
+    position: relative;
+    /*width: 100%;*/
+    /*Ajuste o tamanho conforme necessário*/
+    /*max-width: 900px;*/ 
+    /*margin: 0 auto;*/
+    
+    
+    /*Oculta cards fora da área visível*/
+    overflow: hidden; 
+   
+
+}
+
+/*Carrossel (container com os cards)*/
+.carrossel {
+    display: flex;
+    transition: transform 0.3s ease-in-out;
     gap: 1rem;
 
 }
 
 /*Div com os cards*/
 .div_card {
-    /*border: 1px solid #ccc;*/
     padding: 1rem;
     text-align: center;
     /*background-color: #f0eded49;*/
     background-color: #f0eded65;    
-    align-items: center;
+    /*align-items: center;*/
 
-    
+    /*Cada card ocupa 1/3 da largura*/
+    /*flex: 0 0 33.333%; */
+    flex: 0 0 33%; 
+
+    box-sizing: border-box;
+    margin-top: 2rem;
+
+   
 
 }
 
 /*Imagem de cada pessoa no card*/
 .img_card {
     border-radius: 50%;
-    justify-content: center;
+    /*justify-content: center;*/
     width: 4rem;
-    margin-top: -3rem;
+    margin-top: -2rem;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 
 }
 
@@ -405,15 +436,59 @@ h4 {
 .descricao_img_card {
     margin-top: 1rem;
     color: #8f8b8b;
+    box-sizing: border-box;
+    padding-bottom: 1rem;
+    margin-right: 1rem;
+
+
 
 
 }
 
-/*Bolinhas do carrossel*/
-#slide1, #slide2, #slide3, #slide4 {
-    /*Não ficarem visíveis em telas grandes*/
-    /*display: none;*/
+/*Navegação em bolinhas*/
+.indicadores {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+    margin-bottom: 4rem;
+
 }
+
+/*Cada bolinha de navegação*/
+.dot {
+    width: 12px;
+    height: 12px;
+    background-color: white;
+    border: 1px solid var(--cor_hover_btn_get_started);
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    margin-top: 1rem;
+
+}
+
+/*Class do dot pra tirar as 2 bolinhas*/
+.index_2 {
+    display: none;
+
+}
+
+/*Class do dot pra tirar as 2 bolinhas*/
+.index_3 {
+    display: none;
+
+}
+
+.dot.active {
+    background-color: var(--cor_btn_get_started); /* Cor de bolinha ativa */
+  }
+  
+  .dot:hover {
+    /*background-color: #717171;*/
+  }
+
 
 
 /*Div com o botão da 3ª parte corpo do site*/
@@ -444,6 +519,12 @@ h4 {
 
 
 }
+
+/*Pra tirar as setinhas de navegação*/
+.prev, .next{
+    display: none;
+}
+
 
 
 
