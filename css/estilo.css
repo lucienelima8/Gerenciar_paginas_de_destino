@@ -95,7 +95,7 @@ ul, li, a {
     padding-bottom: 1rem;
     font-size: 1.2rem;
     color: black;
-    font-weight: bolder;
+    font-weight: bold;
 
 
 }
@@ -149,6 +149,8 @@ a:hover {
     letter-spacing: .1rem;
     font-weight: bolder; 
     margin-bottom: 3rem;
+    /*box shadow embaixo do botão*/
+    box-shadow: 0 8px 6px var(--cor_hover_btn_get_started); 
     
 
 }
@@ -220,6 +222,8 @@ h1 {
     cursor: pointer;
     letter-spacing: .1rem;
     font-weight: bolder;
+    /*box shadow embaixo do botão*/
+    box-shadow: 0 8px 6px var(--cor_hover_btn_get_started);
 
 }
 
@@ -511,6 +515,9 @@ h4 {
     cursor: pointer;
     letter-spacing: .1rem;
     font-weight: bolder;
+    margin-top: 1rem;
+    /*box shadow embaixo do botão*/
+    box-shadow: 0 8px 6px var(--cor_hover_btn_get_started);
 
 }
 
